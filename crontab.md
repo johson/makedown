@@ -5,7 +5,7 @@ linux内置的cron进程能帮我们实现这些需求，cron搭配shell脚本�
 ##cron介绍
 
 我们经常使用的是crontab命令是cron table的简写，它是cron的配置文件，也可以叫它作业列表，我们可以在以下文件夹内找到相关配置文件。
-```
+```php
     /var/spool/cron/ 目录下存放的是每个用户包括root的crontab任务，每个任务以创建者的名字命名
     /etc/crontab 这个文件负责调度各种管理和维护任务。
     /etc/cron.d/ 这个目录用来存放任何要执行的crontab文件或脚本。
